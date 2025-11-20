@@ -1,17 +1,30 @@
+# Node / JavaScript
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
 # Maven / Java
 /target/
-/*.iml
+*.iml
 /.idea/
 /*.log
 /.mvn/wrapper/maven-wrapper.jar
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Spring Boot / IDE
 *.class
 *.jar
 *.war
 *.ear
 *.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
